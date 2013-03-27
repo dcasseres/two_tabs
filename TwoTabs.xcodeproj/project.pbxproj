@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0C1741614E5A53B00CEFA47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C1741514E5A53B00CEFA47 /* UIKit.framework */; };
+		B0C1741814E5A53B00CEFA47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C1741714E5A53B00CEFA47 /* Foundation.framework */; };
+		B0C1741A14E5A53B00CEFA47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C1741914E5A53B00CEFA47 /* CoreGraphics.framework */; };
+		B0C1742014E5A53B00CEFA47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0C1741E14E5A53B00CEFA47 /* InfoPlist.strings */; };
+		B0C1742214E5A53B00CEFA47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1742114E5A53B00CEFA47 /* main.m */; };
+		B0C1742614E5A53B00CEFA47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1742514E5A53B00CEFA47 /* AppDelegate.m */; };
+		B0C1742914E5A53B00CEFA47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1742814E5A53B00CEFA47 /* ViewController.m */; };
+		B0C1742C14E5A53B00CEFA47 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C1742A14E5A53B00CEFA47 /* ViewController.xib */; };
+		B0C1743814E5A62800CEFA47 /* file_button_bg_159x50.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C1743214E5A62800CEFA47 /* file_button_bg_159x50.png */; };
+		B0C1743914E5A62800CEFA47 /* file_filter-button_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C1743314E5A62800CEFA47 /* file_filter-button_NORMAL.png */; };
+		B0C1743A14E5A62800CEFA47 /* file_filter-button_SELECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C1743414E5A62800CEFA47 /* file_filter-button_SELECTED.png */; };
+		B0C1743B14E5A62800CEFA47 /* link_button_bg_161x50.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C1743514E5A62800CEFA47 /* link_button_bg_161x50.png */; };
+		B0C1743C14E5A62800CEFA47 /* link_filter-button_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C1743614E5A62800CEFA47 /* link_filter-button_NORMAL.png */; };
+		B0C1743D14E5A62800CEFA47 /* link_filter-button_SELECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C1743714E5A62800CEFA47 /* link_filter-button_SELECTED.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0C1741114E5A53B00CEFA47 /* TwoTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C1741514E5A53B00CEFA47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0C1741714E5A53B00CEFA47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0C1741914E5A53B00CEFA47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0C1741D14E5A53B00CEFA47 /* TwoTabs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwoTabs-Info.plist"; sourceTree = "<group>"; };
+		B0C1741F14E5A53B00CEFA47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0C1742114E5A53B00CEFA47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0C1742314E5A53B00CEFA47 /* TwoTabs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwoTabs-Prefix.pch"; sourceTree = "<group>"; };
+		B0C1742414E5A53B00CEFA47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0C1742514E5A53B00CEFA47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0C1742714E5A53B00CEFA47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0C1742814E5A53B00CEFA47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0C1742B14E5A53B00CEFA47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B0C1743214E5A62800CEFA47 /* file_button_bg_159x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = file_button_bg_159x50.png; path = "Sample_File-Attachment_filter/file_button_bg_159x50.png"; sourceTree = SOURCE_ROOT; };
+		B0C1743314E5A62800CEFA47 /* file_filter-button_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "file_filter-button_NORMAL.png"; path = "Sample_File-Attachment_filter/file_filter-button_NORMAL.png"; sourceTree = SOURCE_ROOT; };
+		B0C1743414E5A62800CEFA47 /* file_filter-button_SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "file_filter-button_SELECTED.png"; path = "Sample_File-Attachment_filter/file_filter-button_SELECTED.png"; sourceTree = SOURCE_ROOT; };
+		B0C1743514E5A62800CEFA47 /* link_button_bg_161x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = link_button_bg_161x50.png; path = "Sample_File-Attachment_filter/link_button_bg_161x50.png"; sourceTree = SOURCE_ROOT; };
+		B0C1743614E5A62800CEFA47 /* link_filter-button_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "link_filter-button_NORMAL.png"; path = "Sample_File-Attachment_filter/link_filter-button_NORMAL.png"; sourceTree = SOURCE_ROOT; };
+		B0C1743714E5A62800CEFA47 /* link_filter-button_SELECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "link_filter-button_SELECTED.png"; path = "Sample_File-Attachment_filter/link_filter-button_SELECTED.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0C1740E14E5A53B00CEFA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C1741614E5A53B00CEFA47 /* UIKit.framework in Frameworks */,
+				B0C1741814E5A53B00CEFA47 /* Foundation.framework in Frameworks */,
+				B0C1741A14E5A53B00CEFA47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0C1740614E5A53B00CEFA47 = {
+			isa = PBXGroup;
+			children = (
+				B0C1741B14E5A53B00CEFA47 /* TwoTabs */,
+				B0C1741414E5A53B00CEFA47 /* Frameworks */,
+				B0C1741214E5A53B00CEFA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C1741214E5A53B00CEFA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1741114E5A53B00CEFA47 /* TwoTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C1741414E5A53B00CEFA47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1741514E5A53B00CEFA47 /* UIKit.framework */,
+				B0C1741714E5A53B00CEFA47 /* Foundation.framework */,
+				B0C1741914E5A53B00CEFA47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0C1741B14E5A53B00CEFA47 /* TwoTabs */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1742414E5A53B00CEFA47 /* AppDelegate.h */,
+				B0C1742514E5A53B00CEFA47 /* AppDelegate.m */,
+				B0C1742714E5A53B00CEFA47 /* ViewController.h */,
+				B0C1742814E5A53B00CEFA47 /* ViewController.m */,
+				B0C1742A14E5A53B00CEFA47 /* ViewController.xib */,
+				B0C1741C14E5A53B00CEFA47 /* Supporting Files */,
+			);
+			path = TwoTabs;
+			sourceTree = "<group>";
+		};
+		B0C1741C14E5A53B00CEFA47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1743214E5A62800CEFA47 /* file_button_bg_159x50.png */,
+				B0C1743314E5A62800CEFA47 /* file_filter-button_NORMAL.png */,
+				B0C1743414E5A62800CEFA47 /* file_filter-button_SELECTED.png */,
+				B0C1743514E5A62800CEFA47 /* link_button_bg_161x50.png */,
+				B0C1743614E5A62800CEFA47 /* link_filter-button_NORMAL.png */,
+				B0C1743714E5A62800CEFA47 /* link_filter-button_SELECTED.png */,
+				B0C1741D14E5A53B00CEFA47 /* TwoTabs-Info.plist */,
+				B0C1741E14E5A53B00CEFA47 /* InfoPlist.strings */,
+				B0C1742114E5A53B00CEFA47 /* main.m */,
+				B0C1742314E5A53B00CEFA47 /* TwoTabs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0C1741014E5A53B00CEFA47 /* TwoTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C1742F14E5A53B00CEFA47 /* Build configuration list for PBXNativeTarget "TwoTabs" */;
+			buildPhases = (
+				B0C1740D14E5A53B00CEFA47 /* Sources */,
+				B0C1740E14E5A53B00CEFA47 /* Frameworks */,
+				B0C1740F14E5A53B00CEFA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoTabs;
+			productName = TwoTabs;
+			productReference = B0C1741114E5A53B00CEFA47 /* TwoTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0C1740814E5A53B00CEFA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B0C1740B14E5A53B00CEFA47 /* Build configuration list for PBXProject "TwoTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0C1740614E5A53B00CEFA47;
+			productRefGroup = B0C1741214E5A53B00CEFA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0C1741014E5A53B00CEFA47 /* TwoTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0C1740F14E5A53B00CEFA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C1742014E5A53B00CEFA47 /* InfoPlist.strings in Resources */,
+				B0C1742C14E5A53B00CEFA47 /* ViewController.xib in Resources */,
+				B0C1743814E5A62800CEFA47 /* file_button_bg_159x50.png in Resources */,
+				B0C1743914E5A62800CEFA47 /* file_filter-button_NORMAL.png in Resources */,
+				B0C1743A14E5A62800CEFA47 /* file_filter-button_SELECTED.png in Resources */,
+				B0C1743B14E5A62800CEFA47 /* link_button_bg_161x50.png in Resources */,
+				B0C1743C14E5A62800CEFA47 /* link_filter-button_NORMAL.png in Resources */,
+				B0C1743D14E5A62800CEFA47 /* link_filter-button_SELECTED.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0C1740D14E5A53B00CEFA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C1742214E5A53B00CEFA47 /* main.m in Sources */,
+				B0C1742614E5A53B00CEFA47 /* AppDelegate.m in Sources */,
+				B0C1742914E5A53B00CEFA47 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0C1741E14E5A53B00CEFA47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C1741F14E5A53B00CEFA47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0C1742A14E5A53B00CEFA47 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C1742B14E5A53B00CEFA47 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0C1742D14E5A53B00CEFA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0C1742E14E5A53B00CEFA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C1743014E5A53B00CEFA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoTabs/TwoTabs-Prefix.pch";
+				INFOPLIST_FILE = "TwoTabs/TwoTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0C1743114E5A53B00CEFA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoTabs/TwoTabs-Prefix.pch";
+				INFOPLIST_FILE = "TwoTabs/TwoTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0C1740B14E5A53B00CEFA47 /* Build configuration list for PBXProject "TwoTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C1742D14E5A53B00CEFA47 /* Debug */,
+				B0C1742E14E5A53B00CEFA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C1742F14E5A53B00CEFA47 /* Build configuration list for PBXNativeTarget "TwoTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C1743014E5A53B00CEFA47 /* Debug */,
+				B0C1743114E5A53B00CEFA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0C1740814E5A53B00CEFA47 /* Project object */;
+}
